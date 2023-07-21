@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ABS25-32.768KHZ-T
+#
+DEF ABS25-32.768KHZ-T Y 0 40 N N 1 L N
+F0 "Y" -100 100 50 H V L BNN
+F1 "ABS25-32.768KHZ-T" -100 -200 50 H V L BNN
+F2 "XTAL_ABS25-32.768KHZ-6-1-T" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "12.01.15" 0 0 50 H I L BNN "PARTREV"
+F6 "Abracon Corporation" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 10 -38 75 38 75 N
+P 2 0 0 10 38 75 38 -75 N
+P 2 0 0 10 38 -75 -38 -75 N
+P 2 0 0 10 -38 -75 -38 75 N
+P 2 0 0 10 -63 38 -63 0 N
+P 2 0 0 10 -63 0 -63 -38 N
+P 2 0 0 10 63 38 63 0 N
+P 2 0 0 10 63 0 63 -38 N
+P 2 0 0 10 -63 0 -100 0 N
+P 2 0 0 10 63 0 100 0 N
+X ~ 1 -300 0 200 R 40 40 0 0 P 
+X ~ 4 300 0 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

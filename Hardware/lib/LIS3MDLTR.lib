@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LIS3MDLTR
+#
+DEF LIS3MDLTR U 0 40 Y Y 1 L N
+F0 "U" -500 720 50 H V L BNN
+F1 "LIS3MDLTR" -501 -901 50 H V L BNN
+F2 "XDCR_LIS3MDLTR" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "LIS3MDL Series 3 Axis ±2/±8/±12/±16 g 3.6V High Performance Magnetometer LGA-12" 0 0 50 H I L BNN "DESCRIPTION"
+F5 "6" 0 0 50 H I L BNN "PARTREV"
+F6 "1mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F7 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+F8 "VFLGA-12 STMicroelectronics" 0 0 50 H I L BNN "PACKAGE"
+F9 "LIS3MDLTR" 0 0 50 H I L BNN "MP"
+F10 "None" 0 0 50 H I L BNN "PRICE"
+F11 "Manufacturer Recommendation" 0 0 50 H I L BNN "STANDARD"
+F12 "STMicroelectronics" 0 0 50 H I L BNN "MF"
+DRAW
+S -500 -800 500 700 0 0 10 f
+X SCL/SPC 1 -600 0 100 R 40 40 0 0 I C
+X GND 3 600 -700 100 L 40 40 0 0 W 
+X C1 4 -600 -400 100 R 40 40 0 0 P 
+X VDD 5 600 600 100 L 40 40 0 0 W 
+X VDD_IO 6 600 500 100 L 40 40 0 0 W 
+X INT 7 600 200 100 L 40 40 0 0 O 
+X DRDY 8 600 100 100 L 40 40 0 0 O 
+X SDO/SA1 9 -600 -200 100 R 40 40 0 0 B 
+X CS 10 -600 200 100 R 40 40 0 0 I 
+X SDA/SDI/SDO 11 -600 -100 100 R 40 40 0 0 B 
+X RSVD2 12 600 -500 100 L 40 40 0 0 P 
+X RSVD1 2 600 -400 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

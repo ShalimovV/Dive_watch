@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TLV707185DQNR
+#
+DEF TLV707185DQNR VR 0 40 Y Y 1 L N
+F0 "VR" -400 230 50 H V L BNN
+F1 "TLV707185DQNR" -400 -400 50 H V L BNN
+F2 "VREG_TLV707185DQNR" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "TLV707185DQNR" 0 0 50 H I L BNN "MP"
+F5 "None" 0 0 50 H I L BNN "PRICE"
+F6 "X2SON-4 Texas Instruments" 0 0 50 H I L BNN "PACKAGE"
+F7 "https://pricing.snapeda.com/search/part/TLV707185DQNR/?ref=eda" 0 0 50 H I L BNN "PURCHASE-URL"
+F8 "Warning" 0 0 50 H I L BNN "AVAILABILITY"
+F9 "Texas Instruments" 0 0 50 H I L BNN "MF"
+F10 "200-mA, low-IQ, low-dropout voltage regulator with enable 4-X2SON -40 to 125" 0 0 50 H I L BNN "DESCRIPTION"
+DRAW
+S -400 -300 400 200 0 0 10 f
+X EN 3 -600 0 200 R 40 40 0 0 I 
+X GND 2 600 -200 200 L 40 40 0 0 W 
+X IN 4 -600 100 200 R 40 40 0 0 I 
+X OUT 1 600 100 200 L 40 40 0 0 O 
+X EP 5 600 -100 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
